@@ -9,7 +9,7 @@ divisible_sum = 0
 
 for row in rows:
     numbers = [int(n) for n in row.split()]
-    checksum += (max(numbers) - min(numbers))
+    checksum += max(numbers) - min(numbers)
     for combo in combinations(numbers, 2):
         if max(combo) % min(combo) == 0:
             divisible_sum += max(combo) // min(combo)
