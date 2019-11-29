@@ -15,6 +15,5 @@ for row in rows:
             divisible_sum += max(combo) // min(combo)
             break
 
-
 print('Part 1:', checksum)
 print('Part 2:', divisible_sum)
