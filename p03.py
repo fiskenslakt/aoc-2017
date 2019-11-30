@@ -48,7 +48,7 @@ class Memory:
 
     def reset_to_access_point(self):
         self.stream = 0j
-        self.address = 0
+        self.address = 1
         self.step = 1
 
     def stress_test(self, target):
